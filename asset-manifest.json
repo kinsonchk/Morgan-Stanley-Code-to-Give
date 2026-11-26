@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Morgan-Stanley-Code-to-Give/static/css/main.56772b74.css",
-    "main.js": "/Morgan-Stanley-Code-to-Give/static/js/main.9691c73b.js",
+    "main.js": "/Morgan-Stanley-Code-to-Give/static/js/main.6393f888.js",
     "reactPlayerYouTube.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerYouTube.974e55eb.chunk.js",
     "reactPlayerSoundCloud.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerSoundCloud.f063c6eb.chunk.js",
     "reactPlayerVimeo.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVimeo.d8d0d9b6.chunk.js",
@@ -18,7 +18,7 @@
     "reactPlayerPreview.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerPreview.6d5580a2.chunk.js",
     "index.html": "/Morgan-Stanley-Code-to-Give/index.html",
     "main.56772b74.css.map": "/Morgan-Stanley-Code-to-Give/static/css/main.56772b74.css.map",
-    "main.9691c73b.js.map": "/Morgan-Stanley-Code-to-Give/static/js/main.9691c73b.js.map",
+    "main.6393f888.js.map": "/Morgan-Stanley-Code-to-Give/static/js/main.6393f888.js.map",
     "reactPlayerYouTube.974e55eb.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerYouTube.974e55eb.chunk.js.map",
     "reactPlayerSoundCloud.f063c6eb.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerSoundCloud.f063c6eb.chunk.js.map",
     "reactPlayerVimeo.d8d0d9b6.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVimeo.d8d0d9b6.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.56772b74.css",
-    "static/js/main.9691c73b.js"
+    "static/js/main.6393f888.js"
   ]
 }
