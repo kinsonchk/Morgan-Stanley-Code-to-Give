@@ -41,9 +41,9 @@ function UpcomingEventsSection() {
   const getEventImage = (theme) => {
     const themeLower = (theme || '').toLowerCase();
     if (themeLower.includes('cleanup') || themeLower.includes('spring cleanup')) {
-      return '/cleanup.avif';
+      return `${process.env.PUBLIC_URL}/cleanup.avif`;
     } else if (themeLower.includes('dinner') || themeLower.includes('gala') || themeLower.includes('fundraising')) {
-      return '/dinner_table.jpg';
+      return `${process.env.PUBLIC_URL}/dinner_table.jpg`;
     } else if (themeLower.includes('hiking') || themeLower.includes('outdoor') || themeLower.includes('walk')) {
       return 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&h=400&fit=crop';
     } else if (themeLower.includes('workshop') || themeLower.includes('empower') || themeLower.includes('education')) {

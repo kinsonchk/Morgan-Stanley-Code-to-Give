@@ -13,9 +13,9 @@ function AchievementsSection() {
       month: t.october2025,
       description: t.achievement1Desc,
       images: [
-        '/pic1.png',
-        '/pic2.png',
-        '/pic3.png',
+        `${process.env.PUBLIC_URL}/pic1.png`,
+        `${process.env.PUBLIC_URL}/pic2.png`,
+        `${process.env.PUBLIC_URL}/pic3.png`,
       ],
       spending: {
         total: 5500,
@@ -33,9 +33,9 @@ function AchievementsSection() {
       month: t.september2025,
       description: t.achievement2Desc,
       images: [
-        '/pic4.png',
-        '/pic5.png',
-        '/pic6.png',
+        `${process.env.PUBLIC_URL}/pic4.png`,
+        `${process.env.PUBLIC_URL}/pic5.png`,
+        `${process.env.PUBLIC_URL}/pic6.png`,
       ],
       spending: {
         total: 4800,
@@ -53,9 +53,9 @@ function AchievementsSection() {
       month: t.august2025,
       description: t.achievement3Desc,
       images: [
-        '/pic7.png',
-        '/pic8.png',
-        '/pic9.png',
+        `${process.env.PUBLIC_URL}/pic7.png`,
+        `${process.env.PUBLIC_URL}/pic8.png`,
+        `${process.env.PUBLIC_URL}/pic9.png`,
       ],
       spending: {
         total: 5200,

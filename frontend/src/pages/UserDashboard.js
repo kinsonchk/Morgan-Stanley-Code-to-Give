@@ -109,13 +109,13 @@ function UserDashboard() {
   const totalDonated = donations.reduce((sum, d) => sum + d.amount, 0);
 
   const donationExamples = useMemo(() => ({
-    10: { image: '/pic1.png', text: t.mealForWomenAndChildren },
-    25: { image: '/pic2.png', text: t.clothingForWomenAndChildren },
-    50: { image: '/pic3.png', text: t.weekOfGroceries },
-    100: { image: '/pic4.png', text: t.utilityBills },
-    250: { image: '/pic5.png', text: t.emergencyHousing },
-    500: { image: '/pic6.png', text: t.educationalPrograms },
-    1000: { image: '/pic7.png', text: t.comprehensiveSupport },
+    10: { image: `${process.env.PUBLIC_URL}/pic1.png`, text: t.mealForWomenAndChildren },
+    25: { image: `${process.env.PUBLIC_URL}/pic2.png`, text: t.clothingForWomenAndChildren },
+    50: { image: `${process.env.PUBLIC_URL}/pic3.png`, text: t.weekOfGroceries },
+    100: { image: `${process.env.PUBLIC_URL}/pic4.png`, text: t.utilityBills },
+    250: { image: `${process.env.PUBLIC_URL}/pic5.png`, text: t.emergencyHousing },
+    500: { image: `${process.env.PUBLIC_URL}/pic6.png`, text: t.educationalPrograms },
+    1000: { image: `${process.env.PUBLIC_URL}/pic7.png`, text: t.comprehensiveSupport },
   }), [t]);
 
   const getDonationExample = (amount) => {
@@ -257,9 +257,9 @@ function UserDashboard() {
       const getEventImage = (theme) => {
         const themeLower = (theme || '').toLowerCase();
         if (themeLower.includes('cleanup') || themeLower.includes('spring cleanup')) {
-          return '/cleanup.avif';
+          return `${process.env.PUBLIC_URL}/cleanup.avif`;
         } else if (themeLower.includes('dinner') || themeLower.includes('gala') || themeLower.includes('fundraising')) {
-          return '/dinner_table.jpg';
+          return `${process.env.PUBLIC_URL}/dinner_table.jpg`;
         } else if (themeLower.includes('hiking') || themeLower.includes('outdoor') || themeLower.includes('walk')) {
           return 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&h=400&fit=crop';
         } else if (themeLower.includes('workshop') || themeLower.includes('empower') || themeLower.includes('education')) {

@@ -198,7 +198,7 @@ function DonationPage() {
             <h3>{t.benefitsOfCreatingAccount}</h3>
             <div className="benefit-item">
               <img
-                src="/kids_drawing.jpg"
+                src={`${process.env.PUBLIC_URL}/kids_drawing.jpg`}
                 alt="Child's drawing"
                 className="benefit-image"
               />
@@ -208,7 +208,7 @@ function DonationPage() {
             </div>
             <div className="benefit-item">
               <img
-                src="/dinner_table.jpg"
+                src={`${process.env.PUBLIC_URL}/dinner_table.jpg`}
                 alt="Donor community event"
                 className="benefit-image"
               />
