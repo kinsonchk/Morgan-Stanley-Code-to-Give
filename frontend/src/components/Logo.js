@@ -2,7 +2,7 @@ import React from 'react';
 import './Logo.css';
 
 function Logo() {
-  const logoPath = '/logo.png';
+  const logoPath = `${process.env.PUBLIC_URL}/logo.png`;
   
   return (
     <div className="logo-container">
