@@ -100,7 +100,6 @@ function UpcomingEventsSection() {
             }
 
             const availablePlaces = event.places_available ?? 0;
-            const isFull = availablePlaces <= 0;
 
             return (
               <div key={event.id} className="event-card">
