@@ -17,7 +17,6 @@ function UserDashboard() {
   const [donations, setDonations] = useState([]);
   const [events, setEvents] = useState([]);
   const [userData, setUserData] = useState(null);
-  const [loading, setLoading] = useState(true);
   const [showPaymentForm, setShowPaymentForm] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [paymentLoading, setPaymentLoading] = useState(false);
@@ -49,8 +48,6 @@ function UserDashboard() {
       setEvents(data);
     } catch (error) {
       console.error('Error fetching events:', error);
-    } finally {
-      setLoading(false);
     }
   }, []);
 
@@ -60,7 +57,7 @@ function UserDashboard() {
       fetchDonations();
       fetchEvents();
     }
-  }, [user]);
+  }, [user, fetchUserData, fetchDonations, fetchEvents]);
 
 
   const handleEventRegisterClick = (event) => {
