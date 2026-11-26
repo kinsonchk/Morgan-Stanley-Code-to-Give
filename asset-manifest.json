@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Morgan-Stanley-Code-to-Give/static/css/main.56772b74.css",
+    "main.js": "/Morgan-Stanley-Code-to-Give/static/js/main.6393f888.js",
+    "reactPlayerYouTube.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerYouTube.974e55eb.chunk.js",
+    "reactPlayerSoundCloud.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerSoundCloud.f063c6eb.chunk.js",
+    "reactPlayerVimeo.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVimeo.d8d0d9b6.chunk.js",
+    "reactPlayerMux.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerMux.8112f662.chunk.js",
+    "reactPlayerFacebook.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerFacebook.294ce5a5.chunk.js",
+    "reactPlayerStreamable.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerStreamable.4afbf1b7.chunk.js",
+    "reactPlayerWistia.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerWistia.eba650f0.chunk.js",
+    "reactPlayerTwitch.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerTwitch.d1b8c719.chunk.js",
+    "reactPlayerDailyMotion.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerDailyMotion.3a0ac385.chunk.js",
+    "reactPlayerMixcloud.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerMixcloud.9330a922.chunk.js",
+    "reactPlayerVidyard.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVidyard.27ce70f0.chunk.js",
+    "reactPlayerKaltura.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerKaltura.d68213bb.chunk.js",
+    "reactPlayerFilePlayer.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerFilePlayer.9a877513.chunk.js",
+    "reactPlayerPreview.js": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerPreview.6d5580a2.chunk.js",
+    "index.html": "/Morgan-Stanley-Code-to-Give/index.html",
+    "main.56772b74.css.map": "/Morgan-Stanley-Code-to-Give/static/css/main.56772b74.css.map",
+    "main.6393f888.js.map": "/Morgan-Stanley-Code-to-Give/static/js/main.6393f888.js.map",
+    "reactPlayerYouTube.974e55eb.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerYouTube.974e55eb.chunk.js.map",
+    "reactPlayerSoundCloud.f063c6eb.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerSoundCloud.f063c6eb.chunk.js.map",
+    "reactPlayerVimeo.d8d0d9b6.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVimeo.d8d0d9b6.chunk.js.map",
+    "reactPlayerMux.8112f662.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerMux.8112f662.chunk.js.map",
+    "reactPlayerFacebook.294ce5a5.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerFacebook.294ce5a5.chunk.js.map",
+    "reactPlayerStreamable.4afbf1b7.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerStreamable.4afbf1b7.chunk.js.map",
+    "reactPlayerWistia.eba650f0.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerWistia.eba650f0.chunk.js.map",
+    "reactPlayerTwitch.d1b8c719.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerTwitch.d1b8c719.chunk.js.map",
+    "reactPlayerDailyMotion.3a0ac385.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerDailyMotion.3a0ac385.chunk.js.map",
+    "reactPlayerMixcloud.9330a922.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerMixcloud.9330a922.chunk.js.map",
+    "reactPlayerVidyard.27ce70f0.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerVidyard.27ce70f0.chunk.js.map",
+    "reactPlayerKaltura.d68213bb.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerKaltura.d68213bb.chunk.js.map",
+    "reactPlayerFilePlayer.9a877513.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerFilePlayer.9a877513.chunk.js.map",
+    "reactPlayerPreview.6d5580a2.chunk.js.map": "/Morgan-Stanley-Code-to-Give/static/js/reactPlayerPreview.6d5580a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56772b74.css",
+    "static/js/main.6393f888.js"
+  ]
+}
